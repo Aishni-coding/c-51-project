@@ -1,0 +1,47 @@
+h1 { color: rgb(149, 135, 231); }
+/*/* { border: solid; }*/
+
+.header {
+   background-color:rgb(204, 94, 118);
+   display:flex;
+   justify-content:space-between ;
+}
+
+.cite-description {
+   display:flex;
+   flex-direction: column;
+   justify-content: first baseline;
+}
+
+.grid img {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:  space-evenly;
+}
+
+.footer {
+
+   display: flex; 
+   justify-content: flex-end;
+}
+
+p,h2 {
+
+   text-align: center;
+}
+
+
+body {
+    margin: 0px;
+   background-color:#1a8a32
+}
+
+.oragami {
+
+    border-radius: 20px;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: cursive;
+}
